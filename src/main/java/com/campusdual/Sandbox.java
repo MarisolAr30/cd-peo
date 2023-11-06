@@ -1,17 +1,12 @@
 package com.campusdual;
 
+import com.campusdual.exercise14.Persona;
+import com.campusdual.exercise14.Teacher;
+
 public class Sandbox {
     public static void main(String[] args) {
-
-        Perro perro1 = new Perro(90, false, "Husky", "Balto", "Blanco");
-
-//        perro1.ladrar();
-//
-//        perro1.presentarse();
-
-        System.out.println(perro1.nombre);
-        System.out.println(perro1.raza);
-        System.out.println(perro1.color);
-
+        Persona p1= new Persona("John","Doe");
+        Persona t1= new Teacher("John","Doe", "Educacion");
+        p1.getDetails();
     }
 }
