@@ -1,6 +1,7 @@
 package com.campusdual.exercise14;
 
-public class PoliceOfficer extends Persona {
+public class PoliceOfficer extends Person{
+
     private String squad;
 
     public PoliceOfficer(String name, String surname, String squad) {
@@ -9,7 +10,7 @@ public class PoliceOfficer extends Persona {
     }
 
     public String getSquad() {
-        return squad;
+        return this.squad;
     }
 
     public void setSquad(String squad) {

@@ -28,45 +28,59 @@ public abstract class Merchandise {
     }
     //GETTERS Y SETTERS
     public String getName() {
+
         return this.name;
     }
     public void setName(String name) {
+
         this.name = name;
     }
     public String getUniqueID() {
+
         return this.uniqueID;
     }
     public void setUniqueID(String uniqueID) {
+
         this.uniqueID = uniqueID;
     }
     public String getResponsibleId() {
+
         return this.responsibleId;
     }
     public void setResponsibleId(String responsibleId) {
+
         this.responsibleId = responsibleId;
     }
     public int getZone() {
+
         return this.zone;
     }
     public void setZone(int zone) {
+
         this.zone = zone;
     }
     public String getArea() {
+
         return this.area;
     }
     public void setArea(String area) {
+
         this.area = area;
     }
     public String getShelf() {
+
         return this.shelf;
     }
     public void setShelf(String shelf) {
+
         this.shelf = shelf;
     }
     public int getQuantity() {
+
         return this.quantity;
     }
     public void setQuantity(int quantity) {
+
         this.quantity = quantity;
     }
     //RESTO DE MÉTODOS

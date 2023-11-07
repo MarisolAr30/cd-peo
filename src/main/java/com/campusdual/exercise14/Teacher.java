@@ -1,7 +1,7 @@
 package com.campusdual.exercise14;
 
-public class Teacher extends Persona{
-private String area;
+public class Teacher extends Person{
+    private String area;
 
     public Teacher(String name, String surname, String area) {
         super(name, surname);
@@ -9,7 +9,7 @@ private String area;
     }
 
     public String getArea() {
-        return area;
+        return this.area;
     }
 
     public void setArea(String area) {
