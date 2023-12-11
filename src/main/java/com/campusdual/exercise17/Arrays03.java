@@ -1,6 +1,6 @@
 package com.campusdual.exercise17;
 
-public class Array03 {
+public class Arrays03 {
 
     public static void main(String[] args) {
 
